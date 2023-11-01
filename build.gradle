@@ -31,6 +31,10 @@ dependencies {
 	testImplementation 'io.projectreactor:reactor-test'
 }
 
+configurations.all {
+	exclude group: 'org.apache.tomcat.embed'
+}
+
 tasks.named('test') {
 	useJUnitPlatform()
 }
