@@ -3,3 +3,7 @@ spring:
     mongodb:
       uri: mongodb+srv://khj74570:rkd07032@chatserver.h8xhndg.mongodb.net/?retryWrites=true&w=majority
       database: chatserver
+
+#logging:
+#  level:
+#    root: debug
